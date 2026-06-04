@@ -1,11 +1,11 @@
 # Estação Meteorológica IoT - Monitoramento de Temperatura e Umidade
 
-# Disciplina: Microprocessadores e Microcontroladores
-# Professor doutor: Fábio Cardoso
-# Universidade do Estado do Amazonas
-# Projeto implementado por Annyele Barbosa de Castro
-#                          Apolo da Silva Valente
-#                          Luiz C. V. dos Santos
+## Disciplina: Microprocessadores e Microcontroladores
+## Professor doutor: Fábio Cardoso
+## Universidade do Estado do Amazonas
+## Projeto implementado por Annyele Barbosa de Castro
+##                          Apolo da Silva Valente
+##                          Luiz C. V. dos Santos
 
 ## Descrição do Projeto
 Este projeto consiste em uma estação meteorológica automatizada baseada em IoT (Internet das Coisas). O sistema realiza a leitura em tempo real da temperatura e umidade do ambiente utilizando uma placa ESP32 e um sensor DHT22. 

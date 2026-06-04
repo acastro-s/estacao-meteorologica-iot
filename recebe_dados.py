@@ -7,7 +7,7 @@ import os
 BROKER = "broker.hivemq.com"
 PORT = 1883
 TOPICO = "uea/annyele/datalogger"
-ARQUIVO_EXCEL = "dados_estacao.xlsx" # Agora é .xlsx!
+ARQUIVO_EXCEL = "dados_estacao.xlsx" 
 
 # Cria a planilha Excel se ela não existir
 if not os.path.exists(ARQUIVO_EXCEL):

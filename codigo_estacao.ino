@@ -72,7 +72,7 @@ void loop() {
     return;
   }
 
-  // Mostra os valores no terminal do Wokwi
+  // Mostra os valores no terminal 
   Serial.print("Temp: "); Serial.print(temperatura);
   Serial.print("°C | Umid: "); Serial.print(umidade); Serial.println("%");
 
@@ -80,7 +80,6 @@ void loop() {
   // Exemplo resultante: "25.4,60.2"
   String dados = String(temperatura, 1) + "," + String(umidade, 1);
   
-  // PUBLICA os dados no tópico exclusivo do seu grupo na internet!
   client.publish("uea/annyele/datalogger", dados.c_str());
 
   delay(3000); // Envia novos dados a cada 3 segundos
